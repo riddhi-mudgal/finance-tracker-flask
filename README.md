@@ -3,19 +3,17 @@
 A web-based Finance Tracker built using Python and Flask that helps users track their daily expenses and analyze spending patterns.
 
 ## Features
-- Add daily expenses
-- Categorize expenses (Food, Travel, Shopping, Bills)
+- User Authentication (Register/Login)
+- Add, Edit, Delete Expenses
+- Category-based Expense Tracking (Food, Travel, Shopping, Bills)
 - View all expenses
-- Category-wise expense analysis
-- Expense visualization using charts
+- Interactive Dashboard with Charts
+- Multi-user Support
 
 ## Tech Stack
-- Python
-- Flask
-- HTML
-- CSS
-- JavaScript
-- Chart.js
+Backend: Python, Flask  
+Database: MySQL  
+Frontend: HTML, CSS, Chart.js
 
 ## Project Structure
 finance-tracker
@@ -26,7 +24,11 @@ finance-tracker
 ├── static
 
 ## How to Run the Project
-
-1. Clone the repository
+1. Clone the repo
 2. Install dependencies
-3. Run the Flask server
+3. Setup MySQL database
+4. Run Flask app
+
+## Future Improvements
+- Monthly reports
+- Export to CSV
