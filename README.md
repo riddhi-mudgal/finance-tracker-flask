@@ -28,7 +28,7 @@ finance-tracker
 
 1. Clone the repository
 
-git clone https://github.com/riddhi-mudgal/finance-tracker.git
+git clone https://github.com/riddhi-mudgal/finance-tracker-flask.git
 
 2. Navigate to the project folder
 
