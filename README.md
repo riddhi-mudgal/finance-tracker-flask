@@ -24,10 +24,31 @@ finance-tracker
 ├── static
 
 ## How to Run the Project
-1. Clone the repo
-2. Install dependencies
-3. Setup MySQL database
-4. Run Flask app
+## Setup Instructions
+
+1. Clone the repository
+
+git clone https://github.com/yourusername/finance-tracker.git
+
+2. Navigate to the project folder
+
+cd finance-tracker
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Create a .env file
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=finance_tracker
+SECRET_KEY=your_secret_key
+
+5. Run the application
+
+python app.py
 
 ## Future Improvements
 - Monthly reports
