@@ -9,6 +9,8 @@ A web-based Finance Tracker built using Python and Flask that helps users track 
 - View all expenses
 - Interactive Dashboard with Charts
 - Multi-user Support
+• Secure user authentication
+• CSV export of expenses
 
 ## Tech Stack
 Backend: Python, Flask  
@@ -47,4 +49,3 @@ finance-tracker
 
 ## Future Improvements
 - Monthly reports
-- Export to CSV
