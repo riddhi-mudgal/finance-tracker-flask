@@ -29,7 +29,7 @@ def add_expense():
         payment =request.form["payment"]
         notes =request.form["notes"]
 
-        insert_expense(date, item, category,amount, payment, notes)
+        insert_expense(date, item, category,amount, payment, notes,session['user_id'])
 
         return redirect(url_for("view_expenses"))
     
